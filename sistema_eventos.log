@@ -8,3 +8,12 @@
 2026-11-19 16:14:38 | INFO | Pruebas finalizadas.
 2026-11-19 16:15:43 | INFO | Cliente creado exitosamente. ID: 2e942cd8-9289-4ce9-b481-2aafc71613ff | Nombre: Carlos Acuña
 2026-11-19 16:15:43 | ERROR | Error durante la prueba: El correo debe contener exactamente un símbolo @.
+2026-11-19 16:32:05 | INFO | Servicio de reserva de sala creado: Sala de conferencias
+2026-11-19 16:32:05 | INFO | Servicio de alquiler de equipo creado: Alquiler tecnológico
+2026-11-19 16:32:05 | INFO | Asesoría especializada creada: Asesoría informática
+2026-11-19 16:32:05 | INFO | Costo calculado para Sala de conferencias: 130900.00
+2026-11-19 16:32:05 | INFO | Costo calculado para Sala de conferencias: 117810.00
+2026-11-19 16:32:05 | INFO | Costo calculado para Alquiler tecnológico: 178500.00
+2026-11-19 16:32:05 | INFO | Costo calculado para Alquiler tecnológico: 160650.00
+2026-11-19 16:32:05 | INFO | Costo calculado para Asesoría informática: 190400.00
+2026-11-19 16:32:05 | INFO | Costo calculado para Asesoría informática: 171360.00
