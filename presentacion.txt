@@ -1,0 +1,12 @@
+Bienvenido a nuestro repositorio colaborativo
+para la face #4 del curso de programacion.
+
+grupo_32
+
+Integrantes: 
+
+lider: Dairo Jose Acuña Vera
+
+colaboradores: 
+* Elias Enrique Hincapie Dias
+* Jorge Ivan Nieto Castano
