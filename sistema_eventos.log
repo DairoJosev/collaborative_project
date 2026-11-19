@@ -8,3 +8,8 @@
 2026-11-19 16:14:38 | INFO | Pruebas finalizadas.
 2026-11-19 16:15:43 | INFO | Cliente creado exitosamente. ID: 2e942cd8-9289-4ce9-b481-2aafc71613ff | Nombre: Carlos Acuña
 2026-11-19 16:15:43 | ERROR | Error durante la prueba: El correo debe contener exactamente un símbolo @.
+2026-11-19 16:26:04 | INFO | Cliente creado exitosamente. ID: 6b28f2ca-b500-490d-b64d-04d46ea1e4e0 | Nombre: Carlos Acuña
+2026-11-19 16:26:04 | ERROR | Error durante la prueba: El correo debe contener exactamente un símbolo @.
+2026-11-19 16:26:18 | INFO | Iniciando pruebas del módulo.
+2026-11-19 16:26:18 | ERROR | Error detectado: El documento ingresado es incorrecto.
+2026-11-19 16:26:18 | INFO | Pruebas finalizadas.
