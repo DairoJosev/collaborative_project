@@ -41,3 +41,107 @@
 2026-11-20 09:39:16 | INFO | Pruebas finalizadas.
 2026-11-20 11:32:42 | INFO | Cliente creado exitosamente. ID: aa3404b1-b246-488e-a6a6-cd298286ce79 | Nombre: Carlos Acuña
 2026-11-20 11:32:42 | ERROR | Error durante la prueba: El correo debe contener exactamente un símbolo @.
+2026-11-20 11:59:05 | INFO | Inicio de la simulación principal del sistema.
+2026-11-20 11:59:05 | INFO | Sistema de gestión FJ inicializado correctamente.
+2026-11-20 11:59:05 | INFO | Cliente creado exitosamente. ID: 38d27944-b7c3-4bc9-832b-ac6ec931e17f | Nombre: Carlos Acuña
+2026-11-20 11:59:05 | INFO | Cliente registrado en el sistema: Carlos Acuña
+2026-11-20 11:59:05 | INFO | Cliente creado exitosamente. ID: dd937d0f-f163-432c-a3d9-6308c415d4d4 | Nombre: María Rodríguez
+2026-11-20 11:59:05 | INFO | Cliente registrado en el sistema: María Rodríguez
+2026-11-20 11:59:05 | ERROR | Operación 3: cliente con correo inválido.
+Traceback (most recent call last):
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\main.py", line 162, in ejecutar_sistema
+    cliente3 = Cliente(
+        nombre="Pedro Martínez",
+        correo="pedro.gmail.com",
+        telefono="3201234567"
+    )
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\modelos_base.py", line 80, in __init__
+    self.correo = correo
+    ^^^^^^^^^^^
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\modelos_base.py", line 168, in correo
+    raise DatosInvalidosError("El correo debe contener exactamente un símbolo @.")
+excepciones_y_logs.DatosInvalidosError: El correo debe contener exactamente un símbolo @.
+2026-11-20 11:59:05 | INFO | Servicio de reserva de sala creado: Sala de conferencias
+2026-11-20 11:59:05 | INFO | Servicio agregado al sistema: Sala de conferencias
+2026-11-20 11:59:05 | INFO | Servicio de alquiler de equipo creado: Alquiler de computadores
+2026-11-20 11:59:05 | INFO | Servicio agregado al sistema: Alquiler de computadores
+2026-11-20 11:59:05 | INFO | Asesoría especializada creada: Asesoría en programación
+2026-11-20 11:59:05 | INFO | Servicio agregado al sistema: Asesoría en programación
+2026-11-20 11:59:05 | ERROR | Operación 7: tarifa negativa.
+Traceback (most recent call last):
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\main.py", line 346, in ejecutar_sistema
+    servicio_invalido = ReservaSala(
+        nombre="Sala inválida",
+    ...<2 lines>...
+        tiene_proyector=False
+    )
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\servicios.py", line 291, in __init__
+    super().__init__(nombre, tarifa_base, disponible, identificador)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\servicios.py", line 47, in __init__
+    self.tarifa_base = tarifa_base
+    ^^^^^^^^^^^^^^^^
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\servicios.py", line 122, in tarifa_base
+    raise DatosInvalidosError("La tarifa base no puede ser negativa.")
+excepciones_y_logs.DatosInvalidosError: La tarifa base no puede ser negativa.
+2026-11-20 11:59:05 | INFO | Validación exitosa de la reserva: af1b959d-61a8-4c47-b59e-e0f300ae72e4
+2026-11-20 11:59:05 | INFO | Reserva creada correctamente. ID: af1b959d-61a8-4c47-b59e-e0f300ae72e4
+2026-11-20 11:59:05 | INFO | Validación exitosa de la reserva: af1b959d-61a8-4c47-b59e-e0f300ae72e4
+2026-11-20 11:59:05 | INFO | Reserva agregada al sistema: af1b959d-61a8-4c47-b59e-e0f300ae72e4
+2026-11-20 11:59:05 | INFO | Validación exitosa de la reserva: af1b959d-61a8-4c47-b59e-e0f300ae72e4
+2026-11-20 11:59:05 | INFO | Reserva confirmada correctamente: af1b959d-61a8-4c47-b59e-e0f300ae72e4
+2026-11-20 11:59:05 | INFO | Finalizó el proceso de confirmación: af1b959d-61a8-4c47-b59e-e0f300ae72e4
+2026-11-20 11:59:05 | INFO | Costo calculado para Sala de conferencias: 117810.00
+2026-11-20 11:59:05 | INFO | Pago simulado correctamente. Reserva: af1b959d-61a8-4c47-b59e-e0f300ae72e4 | Total: 235620.00
+2026-11-20 11:59:05 | INFO | Finalizó el procesamiento del pago: af1b959d-61a8-4c47-b59e-e0f300ae72e4
+2026-11-20 11:59:05 | INFO | Reserva procesada exitosamente. Total: 235620.00
+2026-11-20 11:59:05 | INFO | Validación exitosa de la reserva: 96806f1a-d3c7-4256-b303-51432d023ff6
+2026-11-20 11:59:05 | INFO | Reserva creada correctamente. ID: 96806f1a-d3c7-4256-b303-51432d023ff6
+2026-11-20 11:59:05 | INFO | Validación exitosa de la reserva: 96806f1a-d3c7-4256-b303-51432d023ff6
+2026-11-20 11:59:05 | INFO | Reserva agregada al sistema: 96806f1a-d3c7-4256-b303-51432d023ff6
+2026-11-20 11:59:05 | INFO | Validación exitosa de la reserva: 96806f1a-d3c7-4256-b303-51432d023ff6
+2026-11-20 11:59:05 | INFO | Reserva confirmada correctamente: 96806f1a-d3c7-4256-b303-51432d023ff6
+2026-11-20 11:59:05 | INFO | Finalizó el proceso de confirmación: 96806f1a-d3c7-4256-b303-51432d023ff6
+2026-11-20 11:59:05 | INFO | Costo calculado para Alquiler de computadores: 169575.00
+2026-11-20 11:59:05 | INFO | Pago simulado correctamente. Reserva: 96806f1a-d3c7-4256-b303-51432d023ff6 | Total: 339150.00
+2026-11-20 11:59:05 | INFO | Finalizó el procesamiento del pago: 96806f1a-d3c7-4256-b303-51432d023ff6
+2026-11-20 11:59:05 | INFO | Reserva procesada exitosamente. Total: 339150.00
+2026-11-20 11:59:05 | ERROR | No se pudo crear la reserva: No es posible crear una reserva con un servicio no disponible.
+Traceback (most recent call last):
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\gestion_reservas.py", line 252, in validar
+    raise ServicioNoDisponibleError(
+        "El servicio seleccionado no está disponible."
+    )
+excepciones_y_logs.ServicioNoDisponibleError: El servicio seleccionado no está disponible.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\gestion_reservas.py", line 625, in crear_reserva
+    reserva = Reserva(cliente, servicio, duracion_horas)
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\gestion_reservas.py", line 71, in __init__
+    self.validar()
+    ~~~~~~~~~~~~^^
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\gestion_reservas.py", line 260, in validar
+    raise ReservaInvalidaError(
+        "No es posible crear una reserva con un servicio no disponible."
+    ) from e
+excepciones_y_logs.ReservaInvalidaError: No es posible crear una reserva con un servicio no disponible.
+2026-11-20 11:59:05 | INFO | Disponibilidad de la sala restaurada.
+2026-11-20 11:59:05 | ERROR | No se pudo crear la reserva: La duración debe ser mayor que cero y finita.
+Traceback (most recent call last):
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\gestion_reservas.py", line 625, in crear_reserva
+    reserva = Reserva(cliente, servicio, duracion_horas)
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\gestion_reservas.py", line 68, in __init__
+    self.duracion_horas = duracion_horas
+    ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Acer\Documents\git\collaborative_project\software_FJ\gestion_reservas.py", line 167, in duracion_horas
+    raise DatosInvalidosError("La duración debe ser mayor que cero y finita.")
+excepciones_y_logs.DatosInvalidosError: La duración debe ser mayor que cero y finita.
+2026-11-20 11:59:05 | INFO | Validación exitosa de la reserva: b69778a6-d40d-4372-932d-9009ac732f78
+2026-11-20 11:59:05 | INFO | Reserva creada correctamente. ID: b69778a6-d40d-4372-932d-9009ac732f78
+2026-11-20 11:59:05 | INFO | Validación exitosa de la reserva: b69778a6-d40d-4372-932d-9009ac732f78
+2026-11-20 11:59:05 | INFO | Reserva agregada al sistema: b69778a6-d40d-4372-932d-9009ac732f78
+2026-11-20 11:59:05 | INFO | Reserva cancelada correctamente: b69778a6-d40d-4372-932d-9009ac732f78
+2026-11-20 11:59:05 | INFO | Finalizó el proceso de cancelación: b69778a6-d40d-4372-932d-9009ac732f78
+2026-11-20 11:59:05 | INFO | Simulación finalizada. Total de operaciones ejecutadas: 12
