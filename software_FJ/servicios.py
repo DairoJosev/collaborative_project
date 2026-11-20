@@ -1,4 +1,3 @@
-
 # ============================================================
 # MÓDULO: servicios.py
 # DESCRIPCIÓN: Define los servicios disponibles en el sistema,
@@ -22,7 +21,6 @@ from excepciones_y_logs import (
     CalculoInconsistenteError,
     ServicioNoDisponibleError
 )
-
 
 # ============================================================
 # CLASE ABSTRACTA: SERVICIO

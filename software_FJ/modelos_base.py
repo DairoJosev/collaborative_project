@@ -1,4 +1,3 @@
-
 # ============================================================
 # MÓDULO: modelos_base.py
 # DESCRIPCIÓN: Define las clases abstractas y los modelos base
@@ -20,7 +19,6 @@ from excepciones_y_logs import (
     DatosInvalidosError,
     ParametroFaltanteError
 )
-
 
 # ============================================================
 # CLASE ABSTRACTA: ENTIDAD

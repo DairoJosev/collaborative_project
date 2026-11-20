@@ -10,7 +10,6 @@ import logging
 # Importamos os para trabajar con la ruta del archivo de registros.
 import os
 
-
 # ============================================================
 # CONFIGURACIÓN DEL SISTEMA DE REGISTROS (LOGGING)
 # ============================================================

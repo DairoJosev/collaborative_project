@@ -11,7 +11,6 @@ RUTA_PRINCIPAL = os.path.dirname(
 # Agregamos la carpeta principal a las rutas de búsqueda de Python.
 sys.path.insert(0, RUTA_PRINCIPAL)
 
-
 # Importamos el logger y algunas excepciones.
 from excepciones_y_logs import (
     logger,

@@ -25,3 +25,17 @@
 2026-11-19 16:32:05 | INFO | Costo calculado para Asesoría informática: 190400.00
 2026-11-19 16:32:05 | INFO | Costo calculado para Asesoría informática: 171360.00
 >>>>>>> origin/main
+2026-11-20 09:38:47 | INFO | Cliente creado exitosamente. ID: 82870596-da3d-4de3-ad67-91c07f176c64 | Nombre: Carlos Acuña
+2026-11-20 09:38:47 | ERROR | Error durante la prueba: El correo debe contener exactamente un símbolo @.
+2026-11-20 09:38:52 | INFO | Servicio de reserva de sala creado: Sala de conferencias
+2026-11-20 09:38:52 | INFO | Servicio de alquiler de equipo creado: Alquiler tecnológico
+2026-11-20 09:38:52 | INFO | Asesoría especializada creada: Asesoría informática
+2026-11-20 09:38:52 | INFO | Costo calculado para Sala de conferencias: 130900.00
+2026-11-20 09:38:52 | INFO | Costo calculado para Sala de conferencias: 117810.00
+2026-11-20 09:38:52 | INFO | Costo calculado para Alquiler tecnológico: 178500.00
+2026-11-20 09:38:52 | INFO | Costo calculado para Alquiler tecnológico: 160650.00
+2026-11-20 09:38:52 | INFO | Costo calculado para Asesoría informática: 190400.00
+2026-11-20 09:38:52 | INFO | Costo calculado para Asesoría informática: 171360.00
+2026-11-20 09:39:16 | INFO | Iniciando pruebas del módulo.
+2026-11-20 09:39:16 | ERROR | Error detectado: El documento ingresado es incorrecto.
+2026-11-20 09:39:16 | INFO | Pruebas finalizadas.
