@@ -41,6 +41,7 @@
 2026-11-20 09:39:16 | INFO | Pruebas finalizadas.
 2026-11-20 11:32:42 | INFO | Cliente creado exitosamente. ID: aa3404b1-b246-488e-a6a6-cd298286ce79 | Nombre: Carlos Acuña
 2026-11-20 11:32:42 | ERROR | Error durante la prueba: El correo debe contener exactamente un símbolo @.
+<<<<<<< HEAD
 2026-11-20 11:59:05 | INFO | Inicio de la simulación principal del sistema.
 2026-11-20 11:59:05 | INFO | Sistema de gestión FJ inicializado correctamente.
 2026-11-20 11:59:05 | INFO | Cliente creado exitosamente. ID: 38d27944-b7c3-4bc9-832b-ac6ec931e17f | Nombre: Carlos Acuña
@@ -145,3 +146,22 @@ excepciones_y_logs.DatosInvalidosError: La duración debe ser mayor que cero y f
 2026-11-20 11:59:05 | INFO | Reserva cancelada correctamente: b69778a6-d40d-4372-932d-9009ac732f78
 2026-11-20 11:59:05 | INFO | Finalizó el proceso de cancelación: b69778a6-d40d-4372-932d-9009ac732f78
 2026-11-20 11:59:05 | INFO | Simulación finalizada. Total de operaciones ejecutadas: 12
+=======
+2026-11-20 11:51:08 | INFO | Sistema de gestión FJ inicializado correctamente.
+2026-11-20 11:51:08 | INFO | Cliente creado exitosamente. ID: 38eea5ab-9a09-4de0-9567-c69f176b27a1 | Nombre: Carlos Acuña
+2026-11-20 11:51:08 | INFO | Servicio de reserva de sala creado: Sala de reuniones
+2026-11-20 11:51:08 | INFO | Cliente registrado en el sistema: Carlos Acuña
+2026-11-20 11:51:08 | INFO | Servicio agregado al sistema: Sala de reuniones
+2026-11-20 11:51:08 | INFO | Validación exitosa de la reserva: 7d114ec2-bbea-46d9-8f1f-d8348587ab90
+2026-11-20 11:51:08 | INFO | Reserva creada correctamente. ID: 7d114ec2-bbea-46d9-8f1f-d8348587ab90
+2026-11-20 11:51:08 | INFO | Validación exitosa de la reserva: 7d114ec2-bbea-46d9-8f1f-d8348587ab90
+2026-11-20 11:51:08 | INFO | Reserva agregada al sistema: 7d114ec2-bbea-46d9-8f1f-d8348587ab90
+2026-11-20 11:51:08 | INFO | Validación exitosa de la reserva: 7d114ec2-bbea-46d9-8f1f-d8348587ab90
+2026-11-20 11:51:08 | INFO | Reserva confirmada correctamente: 7d114ec2-bbea-46d9-8f1f-d8348587ab90
+2026-11-20 11:51:08 | INFO | Finalizó el proceso de confirmación: 7d114ec2-bbea-46d9-8f1f-d8348587ab90
+2026-11-20 11:51:08 | INFO | Costo calculado para Sala de reuniones: 130900.00
+2026-11-20 11:51:08 | INFO | Pago simulado correctamente. Reserva: 7d114ec2-bbea-46d9-8f1f-d8348587ab90 | Total: 261800.00
+2026-11-20 11:51:08 | INFO | Finalizó el procesamiento del pago: 7d114ec2-bbea-46d9-8f1f-d8348587ab90
+2026-11-20 11:51:08 | INFO | Reserva procesada exitosamente. Total: 261800.00
+2026-11-20 11:51:08 | INFO | Prueba general del sistema finalizada.
+>>>>>>> a88a9aebf31ff2cdab94694a7562c6e5ade2c56f
